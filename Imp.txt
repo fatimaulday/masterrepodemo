@@ -1,0 +1,41 @@
+sudo mysql -h localhost -u root -p
+SHOW VARIABLES WHERE Variable_name = 'port'                           
+/s or status in mysql
+
+To connect mysql server with mysql workbench
+1. c
+2. ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password';
+
+To enter as a root user in ubuntu:
+1. sudo -i
+
+TO open xamp:
+1. cd /opt/lampp
+2. sudo ./manager-linux-x64.run
+
+TO start mysql in xampp if it stops again and again automatically
+1. sudo service mysql stop
+
+
+
+Angular js steps for firstapp:
+1. ng
+2. ng new firstapp
+3.  cd firstapp
+4. ng g component cdac
+
+To bring top menu visible again
+1. ctrl+shift+p
+2. type: “menu” look for “view: toggle menu”
+
+To Install mobaxterm in ubuntu
+ ssh -i /home/ulday/Documents/demo-1.pem ec2-user@<ip address of ec2>
+
+
+To start tomcat in aws
+1. sudo service tomcat start
+
+sudo yum install tomcat
+sudo yum install java
+
+
